@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-5</title>
+    <link rel="stylesheet" href="CssTask5.css" />
+    <style>
+      .container {
+  margin: 50px 200px 0px 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar {
+  width: 30%;
+  height: 600px;
+  background-color: rgb(220, 220, 29);
+  padding-top: 80px;
+}
+
+.letter {
+  width: 70%;
+  height: auto;
+  background-color: rgb(220, 220, 29);
+}
+
+.content {
+  padding: 30px 30px 30px 30px;
+  text-align: left;
+}
+
+.line {
+  width: 90%;
+  height: 0px;
+  border: 1px dotted black;
+  margin-bottom: 50px;
+}
+
+.closing {
+  padding: 0px 30px 30px 30px;
+}
+
+h1 {
+  position: relative;
+  left: 150px;
+}
+
+.home,
+.musings,
+.mytown,
+.links {
+  height: 40px;
+  width: 200px;
+  background: linear-gradient(
+    to right,
+    white 0%,
+    white 90%,
+    black 90%,
+    black 100%
+  );
+  margin: auto;
+  position: absolute;
+  left: 275px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.musings {
+  top: 195px;
+}
+
+.mytown {
+  top: 260px;
+}
+
+.links {
+  top: 325px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+
+.home:hover,
+.musings:hover,
+.mytown:hover,
+.links:hover {
+  background: linear-gradient(
+    to right,
+    black 0%,
+    black 90%,
+    white 90%,
+    white 100%
+  );
+  a {
+    color: white;
+  }
+}
+
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="home">
+          <a href="#">Home</a>
+        </div>
+        <div class="musings">
+          <a href="#">Musings</a>
+        </div>
+        <div class="mytown">
+          <a href="#">My Town</a>
+        </div>
+        <div class="links">
+          <a href="#">Links</a>
+        </div>
+      </div>
+      <div class="letter">
+        <h1>My First Styled Page</h1>
+        <div class="content">
+          <p>Welcome to my first styled page!</p>
+          <p>
+            It lacks images, but atleast it has style.<br />
+            And it has links, even if they dont go anywhere...
+          </p>
+          <p>There should be more here, but I don't know what yet.<br /></p>
+        </div>
+        <div class="line"></div>
+        <div class="closing">
+          Made 16 Jun 2024<br />
+          by myself
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

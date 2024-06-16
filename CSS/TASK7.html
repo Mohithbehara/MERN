@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task-7</title>
+    <link rel="stylesheet" href="CssTask7.css" />
+    <style>
+      body {
+        background-color: rgb(186, 19, 100);
+        color: white;
+        font-size: 25px;
+      }
+      h2 {
+        text-align: center;
+      }
+      .form {
+        width: 600px;
+        height: 100%;
+        background-color: rgb(85, 3, 45);
+        position: relative;
+        left: 400px;
+        padding: 100px 100px 100px 100px;
+      }
+
+      input {
+        height: 30px;
+        width: 300px;
+        position: absolute;
+        left: 300px;
+      }
+
+      #radio {
+        width: 20px;
+        position: relative;
+        left: 0px;
+        top: 6px;
+      }
+
+      select {
+        position: relative;
+        left: 65px;
+        width: 310px;
+        height: 35px;
+      }
+
+      textarea {
+        position: relative;
+        width: 300px;
+        left: 115px;
+        top: 15px;
+      }
+
+      #register {
+        width: 600px;
+        height: 50px;
+        font-size: 25px;
+        font-weight: 700;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2>TASK-7</h2>
+    <div class="form">
+      Name : <input type="text" id="name" /><br /><br />
+      Email : <input type="email" id="email" /><br /><br />
+      Password : <input type="password" id="password" /><br /><br />
+      Phone : <input type="tel" id="phone" /><br /><br />
+      <pre>Gender:       Male<input type="radio" id="radio" value="male"> Female<input type="radio" id="radio" value="female"> Other<input type="radio" id="radio" value="other"><br/><br/></pre>
+      Language :
+      <select id="select">
+        <option value="Select Language">Select Language</option>
+        <option value="English">English</option>
+        <option value="Hindi">Hindi</option>
+        <option value="Telugu">Telugu</option>
+        <option value="Tamil">Tamil</option>
+        <option value="Kannada">Kannada</option>
+        <option value="Malayalam">Malayalam</option></select
+      ><br /><br />
+      Zipcode : <input type="text" id="zipcode" /><br /><br />
+      About : <textarea rows="3" placeholder="Write about yourself"></textarea
+      ><br /><br /><br />
+      <button id="register">Register</button>
+    </div>
+  </body>
+</html>

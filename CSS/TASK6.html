@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task-6</title>
+  <style>
+  
+    h2{
+      text-align: center;
+    }
+    .lpage{
+      width: 30%;
+      margin: auto;
+      padding: 10px;
+
+    }
+    label{
+      font-weight: bold;
+    }
+    input{
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    input[type="submit"]{
+      background-color: rgb(39, 156, 39);
+      border: 0;
+      width: 105%;
+      color: #fff;
+    }
+    input[type="checkbox"]{
+      width: auto;
+    }
+    input[type="reset"]{
+      width: 90px;
+      background-color: rgb(255, 50, 50);
+      padding: auto;
+      border: 0;
+      border-radius: 5px;
+      margin-top: 15px;
+      color: white;
+    }
+    .forclr{
+      background-color:#c5c5c5a9 ;
+      margin-top: 10px;
+      width: 105%;
+      display: grid;
+      grid-template-columns: 8fr 4fr;
+    }
+    a{
+      color: #000;
+    }
+    .forg{
+      margin-top: auto;
+      padding-right: 0;
+    }
+</style>
+</head>
+<body>
+  <h2>Task-6</h2>
+  <div class="lpage">
+    
+    <img src="https://img.icons8.com/color/480/user-female-circle--v1.png" alt="Avatar" style="width:120px;height:130px;padding-left: 180px; ">
+    <form>
+      <label for="user_name">Username</label><br>
+      <input type="text" id="user_name" name="user_name" placeholder="Enter Username"><br>
+      <label for="password">Password</label><br>
+      <input type="password" id="password"  name="password" placeholder="Enter Password">
+      <br><input type="submit" value="Login" >
+      <input type="checkbox">Remember me<br>
+      <div class="forclr">
+      <input type="reset" value="Cancel">
+      <span class="forg">Forgot <a href="">password?</a>
+      </span>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
